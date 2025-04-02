@@ -9,8 +9,8 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  color: #333;
-  background-color: #f9f9f9;
+  color: #e0e0e0;
+  background-color: #121212;
 }
 
 .main-container {
@@ -21,8 +21,8 @@ body {
 
 /* Header styles */
 header {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #1f1f1f;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   padding: 10px 20px;
   position: sticky;
   top: 0;
@@ -54,7 +54,7 @@ header {
 
 .nav-links a, .nav-links span {
   text-decoration: none;
-  color: #333;
+  color: #e0e0e0;
   font-weight: 500;
   padding: 10px 15px;
   display: block;
@@ -74,9 +74,9 @@ header {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #fff;
+  background-color: #2a2a2a;
   min-width: 800px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   z-index: 1;
   left: 50%;
   transform: translateX(-50%);
@@ -96,7 +96,7 @@ header {
 }
 
 .dropdown-content a {
-  color: #333;
+  color: #e0e0e0;
   padding: 10px;
   text-decoration: none;
   display: block;
@@ -129,7 +129,7 @@ header {
 .hero-section {
   display: flex;
   padding: 60px 20px;
-  background-color: #f0f8ff;
+  background-color: #1a1a1a;
   align-items: center;
   gap: 40px;
 }
@@ -140,13 +140,13 @@ header {
 
 .hero-content h1 {
   font-size: 36px;
-  color: #003366;
+  color: #ff8c38;
   margin-bottom: 20px;
 }
 
 .hero-content p {
   font-size: 18px;
-  color: #555;
+  color: #cccccc;
   line-height: 1.8;
 }
 
@@ -157,7 +157,7 @@ header {
   height: 400px;
   overflow: hidden;
   border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .slideshow {
@@ -184,13 +184,13 @@ header {
 /* Statistics Section */
 .statistics-section {
   padding: 60px 20px;
-  background-color: #ffffff;
+  background-color: #1f1f1f;
   text-align: center;
 }
 
 .statistics-section h2 {
   font-size: 32px;
-  color: #003366;
+  color: #ff8c38;
   margin-bottom: 40px;
 }
 
@@ -206,10 +206,10 @@ header {
 }
 
 .stat-box {
-  background-color: #f8f9fa;
+  background-color: #2a2a2a;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   min-width: 250px;
   transition: transform 0.3s ease;
 }
@@ -227,19 +227,19 @@ header {
 
 .stat-label {
   font-size: 16px;
-  color: #555;
+  color: #cccccc;
 }
 
 /* Digital Public Infrastructure Section */
 .dpi-section {
   padding: 60px 20px;
-  background-color: #f0f8ff;
+  background-color: #1a1a1a;
   text-align: center;
 }
 
 .dpi-section h2 {
   font-size: 32px;
-  color: #003366;
+  color: #ff8c38;
   margin-bottom: 40px;
 }
 
@@ -274,11 +274,11 @@ header {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .dpi-card-front {
-  background-color: #fff;
+  background-color: #2a2a2a;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -294,11 +294,11 @@ header {
 
 .dpi-card-front h3 {
   font-size: 22px;
-  color: #003366;
+  color: #ff8c38;
 }
 
 .dpi-card-back {
-  background-color: #003366;
+  background-color: #333333;
   color: white;
   transform: rotateY(180deg);
   padding: 30px;
@@ -332,12 +332,12 @@ header {
 /* Social Section */
 .social-section {
   padding: 60px 20px;
-  background-color: #fff;
+  background-color: #1f1f1f;
 }
 
 .social-section h2 {
   font-size: 32px;
-  color: #003366;
+  color: #ff8c38;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -351,7 +351,7 @@ header {
 .social-feed {
   flex: 1;
   min-width: 300px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   overflow: hidden;
 }
@@ -371,19 +371,19 @@ header {
 .social-content {
   padding: 20px;
   min-height: 200px;
-  background-color: #f9f9f9;
+  background-color: #2a2a2a;
 }
 
 .fb-post {
   margin-bottom: 20px;
   padding: 15px;
-  background-color: #fff;
+  background-color: #333333;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .fb-post h4 {
-  color: #003366;
+  color: #ff8c38;
   margin-bottom: 10px;
 }
 
@@ -395,10 +395,10 @@ header {
 }
 
 .visitor-box {
-  background-color: #f8f9fa;
+  background-color: #2a2a2a;
   padding: 20px 30px;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
   min-width: 200px;
 }
@@ -412,34 +412,34 @@ header {
 
 .visitor-label {
   font-size: 14px;
-  color: #555;
+  color: #cccccc;
 }
 
 /* Collaboration Section */
 .collaboration-section {
   padding: 60px 20px;
-  background: linear-gradient(135deg, #c9f8c0 0%, #a5e3a6 100%);
+  background: linear-gradient(135deg, #2a4c3e 0%, #1a3a2a 100%);
   text-align: center;
 }
 
 .collab-content p {
   font-size: 18px;
-  color: #333;
+  color: #e0e0e0;
   margin-bottom: 10px;
 }
 
 .collab-content h3 {
   font-size: 32px;
   font-weight: bold;
-  color: #003366;
+  color: #ff8c38;
   margin-bottom: 30px;
 }
 
 .collab-button {
   display: inline-block;
   padding: 12px 30px;
-  background-color: #000;
-  color: white;
+  background-color: #e0e0e0;
+  color: #1a1a1a;
   text-decoration: none;
   border-radius: 6px;
   font-weight: 600;
@@ -447,12 +447,12 @@ header {
 }
 
 .collab-button:hover {
-  background-color: #333;
+  background-color: #ffffff;
 }
 
 /* Footer */
 footer {
-  background-color: #003366;
+  background-color: #1a1a1a;
   color: white;
   padding: 40px 20px;
   position: relative;
@@ -569,11 +569,12 @@ footer {
 /* About and Contact Page Styles */
 .about-section, .contact-section {
   padding: 60px 20px;
+  background-color: #121212;
 }
 
 .about-section h1, .contact-section h1, .service-detail h1 {
   font-size: 36px;
-  color: #003366;
+  color: #ff8c38;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -594,7 +595,7 @@ footer {
 .about-image img {
   width: 100%;
   border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .about-text {
@@ -604,7 +605,7 @@ footer {
 
 .about-text h2 {
   font-size: 24px;
-  color: #003366;
+  color: #ff8c38;
   margin-bottom: 15px;
   margin-top: 30px;
 }
@@ -616,11 +617,13 @@ footer {
 .about-text p {
   margin-bottom: 20px;
   line-height: 1.8;
+  color: #e0e0e0;
 }
 
 .about-text ul {
   margin-left: 20px;
   margin-bottom: 20px;
+  color: #e0e0e0;
 }
 
 .about-text li {
@@ -637,15 +640,15 @@ footer {
 .contact-form {
   flex: 1;
   min-width: 300px;
-  background-color: #fff;
+  background-color: #2a2a2a;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .contact-form h2 {
   font-size: 24px;
-  color: #003366;
+  color: #ff8c38;
   margin-bottom: 20px;
 }
 
@@ -656,16 +659,18 @@ footer {
 .form-group label {
   display: block;
   font-size: 16px;
-  color: #555;
+  color: #e0e0e0;
   margin-bottom: 8px;
 }
 
 .form-group input, .form-group textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ddd;
+  border: 1px solid #444;
   border-radius: 4px;
   font-size: 16px;
+  background-color: #333;
+  color: #e0e0e0;
 }
 
 .form-group textarea {
@@ -691,15 +696,15 @@ footer {
 .contact-info {
   flex: 1;
   min-width: 300px;
-  background-color: #f8f9fa;
+  background-color: #2a2a2a;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .contact-info h2 {
   font-size: 24px;
-  color: #003366;
+  color: #ff8c38;
   margin-bottom: 30px;
 }
 
@@ -720,13 +725,13 @@ footer {
 
 .info-text h3 {
   font-size: 18px;
-  color: #003366;
+  color: #ff8c38;
   margin-bottom: 8px;
 }
 
 .info-text p {
   margin-bottom: 5px;
-  color: #555;
+  color: #e0e0e0;
 }
 
 .contact-image {
@@ -743,6 +748,7 @@ footer {
 /* Service Detail Page */
 .service-detail {
   padding: 60px 20px;
+  background-color: #121212;
 }
 
 .service-header {
@@ -771,7 +777,7 @@ footer {
 .service-image img {
   width: 100%;
   border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .service-info {
@@ -781,7 +787,7 @@ footer {
 
 .service-info h2 {
   font-size: 24px;
-  color: #003366;
+  color: #ff8c38;
   margin-bottom: 15px;
   margin-top: 30px;
 }
@@ -793,6 +799,7 @@ footer {
 .service-info p {
   margin-bottom: 20px;
   line-height: 1.8;
+  color: #e0e0e0;
 }
 
 .service-info ul {
@@ -802,6 +809,7 @@ footer {
 
 .service-info li {
   margin-bottom: 10px;
+  color: #e0e0e0;
 }
 
 .leadership-info {
@@ -814,20 +822,21 @@ footer {
 .leader {
   flex: 1;
   min-width: 250px;
-  background-color: #f8f9fa;
+  background-color: #2a2a2a;
   padding: 20px;
   border-radius: 8px;
 }
 
 .leader h3 {
   font-size: 18px;
-  color: #003366;
+  color: #ff8c38;
   margin-bottom: 10px;
 }
 
 .leader p {
   margin-bottom: 5px;
   font-size: 14px;
+  color: #e0e0e0;
 }
 
 .action-buttons {
@@ -853,11 +862,11 @@ footer {
 }
 
 .action-btn.secondary {
-  background-color: #003366;
+  background-color: #333;
 }
 
 .action-btn.secondary:hover {
-  background-color: #002855;
+  background-color: #444;
 }
 
 /* Animation for statistics counter */
