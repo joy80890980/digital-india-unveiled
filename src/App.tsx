@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import DigiLocker from "./pages/DigiLocker";
 import DigiYatra from "./pages/DigiYatra";
+import Swayam from "./pages/Swayam";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/contact" element={<Contact />} />
           <Route path="/digilocker" element={<DigiLocker />} />
           <Route path="/digiyatra" element={<DigiYatra />} />
+          <Route path="/swayam" element={<Swayam />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
